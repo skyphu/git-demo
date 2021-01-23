@@ -1,11 +1,15 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-  cout << "Hello there!";
-  cout << "General Kenobi!";
+  string name;
+
+  cout << "Please input your name:";
+  cin >> name;
+  cout << "Hello there, " << name << "!";
 
   return 0;
 }
